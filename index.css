@@ -54,10 +54,6 @@ a: active {
     background-color: transparent;
     text-decoration: underline;
 } 
-time{
-    padding: 10px;
-    margin: 40px;
-}
 .dropdown{
     margin: 0px 80px;
     position: relative;
@@ -91,10 +87,16 @@ time{
 .caption{
     position: absolute;
     top: 50px;
-    left: 550px;
+    left: 420px;
     color: white;
     font-family: inherit;
     font-size: larger;
     font-style: italic;
+}
+.caption2{
+    position: absolute;
+    color: white;
+    left: 300px;
+    bottom: -400px;
 }
 
