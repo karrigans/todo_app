@@ -1,10 +1,12 @@
 body{
     background-image: url("IMG_4710.jpg");
+    margin: 10px 30px 100px 100px;
+    
     
 }
 h2{
     padding: 10px;
-    margin: 0px 40px 0px 40px;
+    margin: 0px 40px 0px 120px;
     font-variant: small-caps;
     font-family: sans-serif;
     border: 1px solid black;
@@ -36,14 +38,15 @@ time{
 .dropdown{
     position: relative;
     display:inline-block;
+    cursor: pointer;
 }
 .dropdown-content{
     background-color: #E3E3E3;
-    width: 150px;
+    width: 110px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     position: absolute;
     left: 40px;
-    
+    cursor: pointer;
     display: none;
 }
 .dropdown-content a{
@@ -52,4 +55,21 @@ time{
 .dropdown:hover .dropdown-content{
     display: block;
 }
+.europe{
+    border-radius: 8px;
+}
 
+.europe-image{
+    position: relative;
+    display: inline-block;
+}
+
+.caption{
+    position: absolute;
+    top: 5px;
+    left: 550px;
+    color: white;
+    font-family: inherit;
+    font-size: larger;
+    font-style: italic;
+}
